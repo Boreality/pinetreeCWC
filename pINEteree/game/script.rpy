@@ -157,5 +157,20 @@ label start:
     "Terrified Civilian 16" "Nah man this Aint it, this aint my day..."
     show scaredonlooker18 at randOnlooker
     "Terrified Civilian 18" "Fuckin. wow."
-
+    scene bg grocerystore
+    show peanits tree at mydefault
+    p "uhhhhhhhhh {w} ummmmmmmm"
+    hide peanits tree
+    show peanits tree happy at mydefault
+    p "oh there it is!!"
+    show baklava with dissolve:
+        xpos 900
+        ypos 20
+    "holy fuck. it's the baklava"
+    p "holy fuck. it's the baklava"
+    "it appears to be in some kind of clear enclosure."
+    "with great intent, {w} intensity, {w} and vigor, {w} paynits ripped the packaging open."
+    scene bg god
+    "it's beautiful."
+    
     return
