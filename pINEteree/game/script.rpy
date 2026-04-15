@@ -175,10 +175,13 @@ label start:
     scene bg god
     show peanits god:
         zoom 1
-        xpos 30
-        ypos 0
+        xpos -20
+        ypos 100
     "it's beautiful."
-    
+    show baklagod:
+        zoom 1.0
+        xpos 800
+        ypos -20
     b "son"
     b "you are beautiful as you are"
     b "trust in the light coming from your blunt and you will never go wrong"
@@ -199,7 +202,12 @@ label start:
     scene bg grocerystore with dissolve
 
     p "I need to get back to my crib for real.."
+    show clerk:
+        zoom 0.7
+        xpos 1000
+        ypos 20
     c "aint no way that tree is still here"
+
     scene bg bedroom with dissolve
     "bachlivits somehow finds his way back to his crib"
 
@@ -263,7 +271,7 @@ screen creditscreen:
             xalign 0.5
         text ""
         add "bachlavacredits.jpg": # adding a picture in-between the text
-            zoom 0.75
+            zoom 0.2
             xalign 0.5
         text "thanks for reading            .":
             font "AlteHaasGroteskBold.ttf"
