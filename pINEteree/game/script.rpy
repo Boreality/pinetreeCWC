@@ -4,6 +4,8 @@
 # name of the character.
 
 define p = Character("payne peamits")
+define b = Character("bachlagod")
+define c = Character("cashier")
 
 
 transform mydefault:
@@ -138,10 +140,10 @@ label start:
         zoom 0.7
         xpos 1000
         ypos 20
-    "Cashier" "Gyhuuu--u-u yea?"
+    c "Gyhuuu--u-u yea?"
     p "gimme uhh.. one snack of the gods {w} you know the one"
     show clerk with vpunch
-    "Cashier" "Yea! Sure! Haha, take whatever you want!!"
+    c "Yea! Sure! Haha, take whatever you want!!"
     p "uhh anything? dude ur being really generous right now"
     scene bg grocerystore
     show scaredonlooker14 at randOnlooker
@@ -173,4 +175,72 @@ label start:
     scene bg god
     "it's beautiful."
     
+    b "son"
+    b "you are beautiful as you are"
+    b "trust in the light coming from your blunt and you will never go wrong"
+    p "woahh."
+    p "i'm so high right now"
+    b "I am your bachlava"
+    p "I knoww man"
+    "the bachlava reaches out to treenits"
+    "clouds are moving all around them like its an important moment right now"
+    "treenits sees the layered temptation. {w}he gives in instantly"
+    p "so tasty.."
+    "the clouds transform into pistacho bachlava"
+    "the ground becomes the dry wavy tops of the bachalva toppings"
+    "treenits looks down and the same things on his arms"
+    "treenits becomes bachlivits"
+    p "oh ho.."
+    p "im so fucking high right now{nw}"
+    scene bg grocerystore with dissolve
+
+    p "I need to get back to my crib for real.."
+    c "aint no way that tree is still here"
+    "bachlivits somehow finds his way back to his crib"
+    scene bg bedroom with dissolve
+    p "home again.."
+    p "damn"
+    "peanits sits down on the carpet floor."
+    "theres a penny nudging against his big toe"
+    "peanits doesnt move it."
+    "it's wall staring time"
+    scene bg black
+    centered  "{size=160}9 years later{/size}"
+    show bg bedroom with dissolve
+    "peanits in room thats overgrown and surrounded"
+    "peanits looks at the wall, completely locked in"
+    "his roots are all over the room and theyre the same wavey texture as the bachlava"
+    "his crib holds a new strain of bachlava that nobody has ever heard of"
+    "the bachlava, tree, and weed cells are symbiotically making a new creature"
+
+    p "damn"
+    p "I'm hungry"
+    "peanits heads back to the grocery store"
+
+    scene bg grocerystore
+    show peanits tree at mydefault
+    show clerk:
+        zoom 0.7
+        xpos 1000
+        ypos 20
+    c "NO"
+    "the cashier ducks behind the counter and holds his head"
+    c "No no no no no no no no no"
+    p "hey chillll bro"
+    p "I like, come in peace"
+    "the cashier just holds his head in his hands"
+    c "youre *real*"
+    p "yah"
+    c "sighh"
+    p "can I get a{nw}"
+    c "kiss?"
+    p "..."
+    c "..."
+
+    scene bg bedroom
+    show peanits tree at mydefault
+    show clerk:
+        zoom 0.7
+        xpos 1000
+        ypos 20
     return
