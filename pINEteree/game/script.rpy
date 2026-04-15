@@ -173,13 +173,17 @@ label start:
     "it appears to be in some kind of clear enclosure."
     "with great intent, {w} intensity, {w} and vigor, {w} paynits ripped the packaging open."
     scene bg god
+    show peanits god:
+        zoom 1
+        xpos 30
+        ypos 0
     "it's beautiful."
     
     b "son"
     b "you are beautiful as you are"
     b "trust in the light coming from your blunt and you will never go wrong"
     p "woahh."
-    p "i'm so high right now"
+    "holy shiiiiiit"
     b "I am your bachlava"
     p "I knoww man"
     "the bachlava reaches out to treenits"
@@ -196,8 +200,9 @@ label start:
 
     p "I need to get back to my crib for real.."
     c "aint no way that tree is still here"
-    "bachlivits somehow finds his way back to his crib"
     scene bg bedroom with dissolve
+    "bachlivits somehow finds his way back to his crib"
+
     p "home again.."
     p "damn"
     "peanits sits down on the carpet floor."
@@ -205,42 +210,63 @@ label start:
     "peanits doesnt move it."
     "it's wall staring time"
     scene bg black
-    centered  "{size=160}9 years later{/size}"
+    centered  "{size=160} {cps=2}9 years later{/cps}{/size}"
     show bg bedroom with dissolve
     "peanits in room thats overgrown and surrounded"
     "peanits looks at the wall, completely locked in"
     "his roots are all over the room and theyre the same wavey texture as the bachlava"
     "his crib holds a new strain of bachlava that nobody has ever heard of"
     "the bachlava, tree, and weed cells are symbiotically making a new creature"
+    jump finalcredits
 
-    p "damn"
-    p "I'm hungry"
-    "peanits heads back to the grocery store"
-
-    scene bg grocerystore
-    show peanits tree at mydefault
-    show clerk:
-        zoom 0.7
-        xpos 1000
-        ypos 20
-    c "NO"
-    "the cashier ducks behind the counter and holds his head"
-    c "No no no no no no no no no"
-    p "hey chillll bro"
-    p "I like, come in peace"
-    "the cashier just holds his head in his hands"
-    c "youre *real*"
-    p "yah"
-    c "sighh"
-    p "can I get a{nw}"
-    c "kiss?"
-    p "..."
-    c "..."
-
-    scene bg bedroom
-    show peanits tree at mydefault
-    show clerk:
-        zoom 0.7
-        xpos 1000
-        ypos 20
+label finalcredits:
+    scene black
+    show screen creditscreen
+    pause 30 # or however long it takes to scroll through in a reasonable speed
+    pause
+    hide screen creditscreen
     return
+
+screen creditscreen:
+    vbox:
+        xsize 1000 # horizontal size of the credits
+        ysize 4500 # how much vertical space your rolling credits take.
+        xalign 0.5
+        yalign 0.0
+        at transform:
+            subpixel True
+            easein 50: # or however long it takes to scroll through in a reasonable speed
+                yalign 1.0
+        vbox:
+            ysize 720 # enter vertical resolution, so that it starts with an empty screen
+        text "meal of the gods":
+            font "AlteHaasGroteskBold.ttf"
+            color "#F9A"
+            size 100
+            xalign 0.5
+        text "Team Pine Tree":
+            font "AlteHaasGroteskBold.ttf"
+            color "#79F"
+            size 50
+            xalign 0.5
+        text ""
+        text "Made with Ren'Py.":
+            font "AlteHaasGroteskBold.ttf"
+            bold True
+            xalign 0.5
+        vbox:
+            ysize 100 # some empty space in between
+        text "Sponsored by:":
+            font "AlteHaasGroteskBold.ttf"
+            color "#79F"
+            size 50
+            xalign 0.5
+        text ""
+        add "bachlavacredits.jpg": # adding a picture in-between the text
+            zoom 0.75
+            xalign 0.5
+        text "thanks for reading            .":
+            font "AlteHaasGroteskBold.ttf"
+            bold True
+            xalign 0.5
+
