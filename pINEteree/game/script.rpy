@@ -225,6 +225,9 @@ label start:
     "his roots are all over the room and theyre the same wavey texture as the bachlava"
     "his crib holds a new strain of bachlava that nobody has ever heard of"
     "the bachlava, tree, and weed cells are symbiotically making a new creature"
+    show bg ethereal with dissolve
+    show peanits obzen
+    "a new world."
     jump finalcredits
 
 label finalcredits:
