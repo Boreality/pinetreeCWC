@@ -1,0 +1,20 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+PermissionError: [WinError 5] Access is denied: 'C:\\Perforce\\Tural210367\\CrazyTalk\\game\\saves\\navigation.json'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\Turcr\Downloads\renpy-8.2.1-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Turcr\Downloads\renpy-8.2.1-sdk\renpy\main.py", line 582, in main
+    renpy.dump.dump(False)
+  File "C:\Users\Turcr\Downloads\renpy-8.2.1-sdk\renpy\dump.py", line 260, in dump
+    os.unlink(filename)
+PermissionError: [WinError 5] Access is denied: 'C:\\Perforce\\Tural210367\\CrazyTalk\\game\\saves\\navigation.json'
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.2.1.24030407
+Crime Division 4 1.01
+Mon Jan  6 11:39:58 2025

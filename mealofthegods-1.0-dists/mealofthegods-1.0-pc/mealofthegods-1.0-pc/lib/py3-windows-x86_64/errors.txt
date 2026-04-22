@@ -1,0 +1,12 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label BoShow is defined twice, at File "game/chpt5.rpy", line 6:
+label BoShow:
+and File "game/chpt6.rpy", line 6:
+label BoShow:
+
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Sun Dec  8 10:28:36 2024
